@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <!--TextView : 텍스트를 감싸고 있는 박스-->
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="#EDB8E6"
+            android:text="💛  Hello  💛"
+            android:textColor="#F3F3F3"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <!--ImageView-->
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:scaleType="center"
+            android:src="@drawable/dog" />
+
+        <Button
+            android:id="@+id/button2"
+            android:backgroundTint="#EDB8E6"
+            android:text="HEY~"
+            android:textAllCaps="false"
+            android:drawableLeft="@android:drawable/btn_star_big_on"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content" />
+
+        <ToggleButton
+            android:id="@+id/my_toggle_button"
+            android:textOn="ON"
+            android:textOff="OFF"
+            android:backgroundTint="#FFF4B2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/edittext2"
+            android:hint="패스워드를 입력해 임마!"
+            android:inputType="numberPassword"
+            android:maxLength="12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+</ScrollView>

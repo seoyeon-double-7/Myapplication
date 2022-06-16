@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--xml 주석이다 이말이야~-->
+
+    <TextView
+        android:id="@+id/my_textview"
+        android:text="@string/my_string"
+        android:textSize="24sp"
+        android:textColor="#991B24CD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <!--match content는 부모 크기 따라 가는 것-->
+    <!--wrap content는 자기 영역만(패딩까지)-->
+    <EditText
+        android:id="@+id/my_edittext"
+        android:hint="입력 힌트"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
+
+    <Button
+        android:id="@+id/my_button"
+        android:text="Click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
